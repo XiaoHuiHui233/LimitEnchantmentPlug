@@ -1,0 +1,11 @@
+﻿name: LimitEnchantment
+main: com.XiaoHuiHui.LimitEnchantment.LEMain
+version: '00.02.14 BETA'
+author: XiaoHuiHui
+commands:
+    LimitEnchantment:
+        description: 可以自动判断是否有人使用超过附魔等级的物品。
+        usage: /LimitEnchantment help
+        Permission: LimitEnchantment.Admin
+        permission-message: 你没有<permission>的权限。
+        aliases: [LimitEn,le]
